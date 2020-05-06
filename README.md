@@ -32,11 +32,15 @@ To run the executable, type the following command on your CLI:
 To find the shortest path on a given graph, first enter the number of vertices in the graph, the edge-list of the graph, along with the 2 verticies who's shortest path is to be found. Following is an example:
 
 ```
-# input from user
-V 15  # number of vertices in graph
+# Input Format must be as follows:
+V <Number of Vertices in Graph>
+E {<Vi,Vj>,...} # where Vi and Vj are vertices in the graph
+
+# Example usage
+V 15  
 E {<2,6>,<2,8>,<2,5>,<6,5>,<5,8>,<6,10>,<10,8>} # edges in graph
 s 2 10
 
 # output from program
-2-6-10 # shortest path between 2 and 10
+2-6-10  # shortest path between 2 and 10
 ```
