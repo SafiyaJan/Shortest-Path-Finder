@@ -35,6 +35,7 @@ To find the shortest path on a given graph, first enter the number of vertices i
 # Input Format must be as follows:
 V <Number of Vertices in Graph>
 E {<Vi,Vj>,...} # where Vi and Vj are vertices in the graph
+s <src vertex> <dest vertex>
 
 # Example usage
 V 15  
