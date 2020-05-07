@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 project(shortest_path)
 
-## ECE650 Specific configuration start here
 ## Project specific configurations go here
 
 # enable c++11 support
